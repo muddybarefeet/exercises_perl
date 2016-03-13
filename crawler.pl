@@ -24,7 +24,7 @@ my $visitedUrlsRef = {};
 my $productsCapturedRef = {};
 
 #-- Chose a webpage and send a get request to return the content of the page
-my $startUrl = FILLMEIN;
+my $startUrl = "http://www.target.com/s?searchTerm=womens+sleepwear&category=0&view=medium&iec=0&facets=d_size_grouping:Women|d_item_type_all:Sleep%20shorts&resultsPerPage=60&sort=bestselling&minPrice=from&maxPrice=to&s=y";
 getLinks($startUrl);
 # my $count = 0;
 
